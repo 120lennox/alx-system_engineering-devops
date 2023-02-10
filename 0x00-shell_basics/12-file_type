@@ -1,4 +1,2 @@
 #!/bin/bash
-file_path="/tmp/iamafile"
-file_type = file --brief --mime-type file_path
-echo $file_type
+echo  file --brief --mime-type /tmp/iamafile
