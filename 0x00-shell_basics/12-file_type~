@@ -1,0 +1,6 @@
+#!/bin/bash
+file_path="/tmp/iamafile"
+
+if [ -f "$file_path" ]; then
+    file_type=$(file --brief --mime-type "$file_path")
+    echo "The type of the file is: $file_type"
