@@ -1,2 +1,2 @@
-!#/bin/bash
-echo "$(tail -1 $1)" >> $1
+#!/bin/bash
+tail -n a <iacta >>iacta
